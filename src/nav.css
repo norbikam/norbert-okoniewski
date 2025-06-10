@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+    justify-content: space-between;
+    background-color: black;
+    font-weight: 500;
+    cursor: default;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+}
+.leftnav h1{
+    color: red;
+    font-size: 2rem;
+}
+.rightnav{
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+li{
+    list-style-type: none;
+    color: rgb(211, 211, 211);
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}
