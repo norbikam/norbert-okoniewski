@@ -1,24 +1,20 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import '/breakingbad.png'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
+  <section>
+        <div class="main">
+          <div class="videocontainer">
+            <iframe src="https://www.youtube.com/embed/VaOt6tXyf2Y?si=hXkZrzsVVxbQR95G?&autoplay=1&mute=1&playsinline=1&controls=0&loop=1"></iframe>
+                  <div id="overlay">
+                  <img src="/public/breakingbad.png" alt="BreakingBadLogo">
+                  <div id="buttons">
+                    <button id="play">Odtwórz</button>
+                    <button id="more">Więcej informacji</button>
+                  </div>
+                  </div>
+          </div>
+          <div class="propositions"></div>
+        </div>
+      </section>
 `
-
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)

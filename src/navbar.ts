@@ -1,4 +1,4 @@
-import './nav.css'
+import './css/nav.css'
 
 document.querySelector<HTMLDivElement>('#navbar')!.innerHTML = `
 <nav>
